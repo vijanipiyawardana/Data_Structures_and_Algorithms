@@ -2,7 +2,7 @@
 
 ## Arrays
 
-|       Operation                      | Running Time Complexity |
+| Operation                            | Running Time Complexity |
 |--------------------------------------|-------------------------|
 | search based on index                |     O(1) constant       |
 | search for arbitrary item (no index) |     O(N) linear         |
