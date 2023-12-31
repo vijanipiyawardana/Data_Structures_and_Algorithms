@@ -13,3 +13,4 @@
 
 [`Array.java`](java/arrays/Array.java)
 [`ArrayListDemo.java`](java/arrays/ArrayListDemo.java)
+- Reverse Array Problem: [`Exercise1.java`](java/arrays/Exercise1.java) [`Example1.java`](java/arrays/Example1.java)
