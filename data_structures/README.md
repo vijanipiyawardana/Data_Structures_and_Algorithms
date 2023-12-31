@@ -14,3 +14,9 @@
 [`Array.java`](java/arrays/Array.java)
 [`ArrayListDemo.java`](java/arrays/ArrayListDemo.java)
 - Reverse Array Problem: [`Exercise1.java`](java/arrays/Exercise1.java) [`Example1.java`](java/arrays/Example1.java)
+    - keep running the algorithm while lowIndex < highIndex
+    - in every iteration, have to swap the items ith the index lowIndex and highIndex
+    - in every single iteration, have to increment lowIndex and decrement the highIndex
+- Anagram Problem:
+- Palindrome Problem:
+- Integer Reversion Exercise:

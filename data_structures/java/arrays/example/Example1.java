@@ -31,5 +31,8 @@ public class Example1 {
         Example1 e1 = new Example1();
         System.out.println(Arrays.toString(nums));
         System.out.println(Arrays.toString(e1.solve(nums)));
+        int nums2[] = new int[] { 1, 2, 3, 4, 5 };
+        System.out.println(Arrays.toString(nums2));
+        System.out.println(Arrays.toString(e1.solve(nums2)));
     }
 }
