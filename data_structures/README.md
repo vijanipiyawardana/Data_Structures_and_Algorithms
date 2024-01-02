@@ -17,6 +17,9 @@
     - keep running the algorithm while lowIndex < highIndex
     - in every iteration, have to swap the items ith the index lowIndex and highIndex
     - in every single iteration, have to increment lowIndex and decrement the highIndex
-- Anagram Problem:
-- Palindrome Problem:
-- Integer Reversion Exercise:
+- Anagram Problem: [`Exercise2.java`](java/arrays/Exercise2.java) [`Example2.java`](java/arrays/Example2.java)
+    - Anagram is a phrase or word formed by rearranging the letters of a different word (subject) or phrase, using all the original letters exactly once. EX: restful - fluster
+    - sort the letters/charactors in both strings in alphabetical order
+    - iterate through the strings, check the letters are matching or not.
+- Palindrome Problem: [`Exercise3.java`](java/arrays/Exercise3.java) [`Example3.java`](java/arrays/Example3.java)
+- Integer Reversion Exercise: [`Exercise4.java`](java/arrays/Exercise1.java) [`Example4.java`](java/arrays/Example1.java)
