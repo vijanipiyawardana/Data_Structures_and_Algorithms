@@ -2,7 +2,8 @@ import java.util.Arrays;
 
 public class Example2 {
 
-    // overall running time complexity is O(NlogN) + O(N) = O(NlogN)
+    // overall running time complexity is O(NlogN) + O(N) = O(NlogN), 
+    // linearithmic running time complexity
     public boolean solve(char[] str1, char[] str2) {
 
         // length of the strings are not equal, so they cannot be anagrams.
@@ -34,6 +35,6 @@ public class Example2 {
 
         Example2 e2 = new Example2();
         System.out.println(e2.solve("restful".toCharArray(), "fluster".toCharArray()));
-
+        System.out.println(e2.solve("apple".toCharArray(), "orange".toCharArray()));
     }
 }

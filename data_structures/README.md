@@ -22,4 +22,5 @@
     - sort the letters/charactors in both strings in alphabetical order
     - iterate through the strings, check the letters are matching or not.
 - Palindrome Problem: [`Exercise3.java`](java/arrays/Exercise3.java) [`Example3.java`](java/arrays/Example3.java)
+    - A palindrome is a string that reads the same forward and backward. Ex: radar
 - Integer Reversion Exercise: [`Exercise4.java`](java/arrays/Exercise1.java) [`Example4.java`](java/arrays/Example1.java)
