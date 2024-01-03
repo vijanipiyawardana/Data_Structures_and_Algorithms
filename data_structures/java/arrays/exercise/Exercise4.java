@@ -6,16 +6,18 @@
  */
 public class Exercise4 {
 
-    public char[] solve(int num) {
-        String numStr = String.valueOf(num);
+    public int reverse(int n) {
+        String numStr = String.valueOf(n);
         char[] charArr = numStr.toCharArray();
         this.print(charArr);
-        this.reverse(charArr);
+        this.reverseArr(charArr);
         this.print(charArr);
-        return charArr;
+        String reversedArr = new String(charArr);
+        int reversed = Integer.valueOf(reversedArr);
+        return reversed;
     }
 
-    private char[] reverse(char[] charArr) {
+    private char[] reverseArr(char[] charArr) {
         int j = charArr.length - 1;
         for (int i = 0; i < charArr.length; i++) {
             if (i > j || i == j) 
@@ -41,7 +43,7 @@ public class Exercise4 {
 
     public static void main(String[] args) {
         Exercise4 e4 = new Exercise4();
-        System.out.println(e4.solve(1234));
+        System.out.println(e4.reverse(1234));
     }
     
 }
