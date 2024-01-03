@@ -1,3 +1,10 @@
+/*
+ *  Palindrome problem exercise
+    "A palindrome is a string that reads the same forward and backward"
+    For example: radar or madam
+    Your task is to design an optimal algorithm for checking whether a 
+    given string is palindrome or not! 
+*/
 public class Exercise3 {
 
     public boolean solve(String s) {
