@@ -23,6 +23,7 @@ public class Example4 {
         Example4 e4 = new Example4();
         System.out.println(e4.reverse(1234));
         System.out.println(e4.reverse(56789));
+        System.out.println(e4.reverse(1000));
     }
     
 }

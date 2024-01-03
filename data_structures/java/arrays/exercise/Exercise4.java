@@ -44,6 +44,7 @@ public class Exercise4 {
     public static void main(String[] args) {
         Exercise4 e4 = new Exercise4();
         System.out.println(e4.reverse(1234));
+        System.out.println(e4.reverse(1000));
     }
     
 }
