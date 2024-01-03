@@ -36,7 +36,6 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
 | Java     |    online    | while loop | 31 milliseconds, 30 milliseconds      |
 | Python   |    online    | for loop   | 0.043212890625, 0.0390625             |
 | Python   |    online    | while loop | 0.061279296875, 0.049072265625        |
-'----------|--------------|------------|---------------------------------------'
 
 ## Data Structures [`data_structures`](data_structures)
 
