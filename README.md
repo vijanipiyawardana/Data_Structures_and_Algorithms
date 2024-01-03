@@ -25,6 +25,7 @@
 - We use Big-O because we cannot depend on the clock time of the system. 
 Ex: Write a program to calculate sum of n natural numbers. For example we will take n as 100.
 [`SumForLoop.java`](complexity_analysis/SumForLoop.java) [`SumWhileLoop.java`](complexity_analysis/SumWhileLoop.java) [`SumForLoop.py`](complexity_analysis/SumForLoop.py) [`SumWhileLoop.py`](complexity_analysis/SumWhileLoop.py) <br>
+
 | language | run platform |   method   | execution time (executed twice)       |
 |----------|--------------|------------|---------------------------------------|
 | Java     |    laptop    | for loop   | 20 milliseconds, 25 milliseconds      |
