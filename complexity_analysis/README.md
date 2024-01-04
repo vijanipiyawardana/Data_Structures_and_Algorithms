@@ -1,7 +1,8 @@
 # Complexity Analysis
 
 ### Big-O Notation
-![Alt text](<Screenshot from 2024-01-03 03-10-54.png>)
+<p align="center">
+![Alt text](<../assets/big_o_intro.png>)</p>
 
 - We use Big-O because, we cannot depend on the clock time of the system. <br>
 Ex: Write a program to calculate sum of n natural numbers. For example we will take n as 100.
@@ -22,5 +23,5 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
 - The main focus is to calculate the amount of work we do or the number of comparisons we perform.
 - if SolutionA has 10 operations and SolutionB has 5 operations, the SolutionB is going to perform better. We use complexity analysis because it depends on number of **Operations** and number of **Elements (inputs)**
 - Big-O complexity chart - ratings <br>
-![Alt text](<Screenshot from 2024-01-03 04-12-01.png>)
+![Alt text](<../assets/big_o_graph.png>)
 
