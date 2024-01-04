@@ -87,4 +87,6 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
     - require 3 steps to eliminate unrequired elements.
     ![Alt text](<../assets/logarithm/ex_divide_array_into_half.png>) <br>
     ![Alt text](<../assets/logarithm/ex_divide_array_into_half2.png>) <br>
+    - the total number of steps used in the algorithm with n input, is **approximately** log(n)
+    ![Alt text](<../assets/logarithm/logn_vs_nlogn_graph.png) <br>
 
