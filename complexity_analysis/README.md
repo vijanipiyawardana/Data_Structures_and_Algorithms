@@ -42,3 +42,10 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
 
 
 ## Space complexity
+
+- Space Complexity of an algorithm represents the amount of extra memory space needed the algorithm in its life cycle.
+- Usually we have 2 types of space requirements:
+    - To store our input data
+    - **Extra space that we need to execute our program**
+- **How much additional memory do we need to allocate in order to run our code**
+- Example code: [`display_cube`](space_complexity/display_cube.py)
