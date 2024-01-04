@@ -15,3 +15,4 @@ def randomFunction(students):
     return(total)       # O(1)
 
 print(randomFunction(students))     # O(6 + 2N) --> O(N) is the complexity if this program
+# Rule 1 & 3 apply here

@@ -7,6 +7,7 @@ student_list_2 = ["Ibrahim", "Anastasia", "Ariel", "Nate", "Marcus"]
 # calculate big-O for this: consider number of operations and number of inputs
 # number of inputs = 4 (4 names in the list)
 # number of operaions = 4 (we compare name is equal to Nate for each input)
+# we consider worst case scenario: "Nate" is the last element of input. Rule 2 applies here.
 def checkStudent(student_list):
     for student in student_list:
         if student == "Nate":
