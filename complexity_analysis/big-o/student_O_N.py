@@ -1,3 +1,5 @@
+# Linear Complexity O(N)
+
 student_list_1 = ["Luke", "Atufa", "Vijani", "Marcus"]
 
 student_list_2 = ["Ibrahim", "Anastasia", "Ariel", "Nate", "Marcus"]
