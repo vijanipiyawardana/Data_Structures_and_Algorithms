@@ -19,3 +19,7 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
 - We use Big-O to give a performance rating to our program for time and space.
 - Big-O doesn't depend on time, it depends on how many steps we are performing.
 - The main focus is to calculate the amount of work we do or the number of comparisons we perform.
+- if SolutionA has 10 operations and SolutionB has 5 operations, the SolutionB is going to perform better. We use complexity analysis because it depends on number of **Operations** and number of **Elements (inputs)**
+- Big-O complexity chart - ratings
+![Alt text](<Screenshot from 2024-01-03 04-12-01.png>)
+
