@@ -23,5 +23,5 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
 - The main focus is to calculate the amount of work we do or the number of comparisons we perform.
 - if SolutionA has 10 operations and SolutionB has 5 operations, the SolutionB is going to perform better. We use complexity analysis because it depends on number of **Operations** and number of **Elements (inputs)**
 - Big-O complexity chart - ratings <br>
-![Alt text](<../assets/big_o_graph.png>)
+![Alt text](<../assets/bigO_graph.png>)
 
