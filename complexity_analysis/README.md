@@ -71,3 +71,14 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
 ![Alt text](<../assets/logarithm/log_base_2.png>) <br>
 ![Alt text](<../assets/logarithm/base_2_x.png>) <br>
 ![Alt text](<../assets/logarithm/base_2_n.png>) <br>
+![Alt text](<../assets/logarithm/log_1_is_0.png>) <br>
+![Alt text](<../assets/logarithm/log_values.png>) <br>
+![Alt text](<../assets/logarithm/more_log_values.png>) <br>
+- pattern is: when you double the value of **n**, the value of **log** only increases by **1**.
+- O(logn) is more better than O(n), see the graphs below:
+    - input increases, but complexity don't
+![Alt text](<../assets/logarithm/logn_graph.png) <br>
+![Alt text](<../assets/logarithm/n_graph_1024.png) 
+![Alt text](<../assets/logarithm/logn_graph_1024.png) <br>
+- Where we can expect log in complexity?
+
