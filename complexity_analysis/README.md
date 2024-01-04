@@ -65,7 +65,9 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
 
 # Logarithm
 
-![Alt text](<../assets/logarithm/log_1.png>)
-![Alt text](<../assets/logarithm/diff_val_for_diff_base.png>)
-![Alt text](<../assets/logarithm/binary_log.png>)
-![Alt text](<../assets/logarithm/log_base_2.png>)
+![Alt text](<../assets/logarithm/log_1.png>) <br>
+![Alt text](<../assets/logarithm/diff_val_for_diff_base.png>) <br>
+![Alt text](<../assets/logarithm/binary_log.png>) <br>
+![Alt text](<../assets/logarithm/log_base_2.png>) <br>
+![Alt text](<../assets/logarithm/base_2_x.png>) <br>
+![Alt text](<../assets/logarithm/base_2_n.png>) <br>
