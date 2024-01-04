@@ -49,3 +49,18 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
     - **Extra space that we need to execute our program**
 - **How much additional memory do we need to allocate in order to run our code**
 - Example code: [`display_cube`](space_complexity/display_cube.py)
+
+# Memory
+
+- 1 memory slot is **8 bit**, which is equal to **1 Byte**
+- operating system either **32 bit** or **64 bit**
+- in 32 bit OS, initialize an integer, it will take **32 bit**, which is equal to **4 Byte**
+    - So, it will allocate 4 memory slots, stores the value in **Binary**,  
+    - and returns a memory address in **Hexadecimal**, using that we can access the stored value
+    - ex: to store arr = [2, 3] it should first find 8 memory slots all together, back to back
+- to store strings, it use ASCII value
+    ![Alt text](<../assets/memory_canvas_array.png>)
+    ![Alt text](<../assets/memory_canvas_big_integer.png>)
+    ![Alt text](<../assets/memory_canvas_linked_list.png>)
+
+# Logarithm
