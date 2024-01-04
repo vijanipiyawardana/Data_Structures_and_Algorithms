@@ -25,3 +25,8 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
 - Big-O complexity chart - ratings <br>
 ![Alt text](<../assets/bigO_graph.png>)
 
+
+### Complexity analysis example code
+- [`O(N)`](big-o/student_O_N.py)
+- [`O(1)`](big-o/student_O_1.py)
+- [`count_operations`](big-o/count_operations.py) 
