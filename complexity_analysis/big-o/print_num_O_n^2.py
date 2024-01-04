@@ -13,12 +13,12 @@ def randomFunction(num_list):
 
     return total;
 
-print(randomFunction(num_list))     # O(N^2)
+print(randomFunction(num_list))     # O(n^2)
 
 
 ================================================================================
-num_list1 = [1, 2, 3, 4, 5, 6, 7]
-num_list2 = [5, 6, 7, 8, 9]
+num_list1 = [1, 2, 3, 4, 5, 6, 7]   # O(n)
+num_list2 = [5, 6, 7, 8, 9]         # O(m)
 
 def randomFunction(num_list1, num_list2):
     total = 0
@@ -33,6 +33,6 @@ def randomFunction(num_list1, num_list2):
 
     return total;
 
-print(randomFunction(num_list1, num_list2)) # O(N*M) --> O(N^2) : Rule 4
+print(randomFunction(num_list1, num_list2)) # O(n*m) --> O(n^2) : Rule 4
 
 

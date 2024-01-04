@@ -27,12 +27,18 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
 
 
 ### Complexity analysis example code
-- [`O(N)`](big-o/student_O_N.py)
+- [`O(n)`](big-o/student_O_n.py)
 - [`O(1)`](big-o/student_O_1.py)
 - [`count_operations`](big-o/count_operations.py) 
 - [`simplifying_big_o_part1`](big-o/print_num_char)
-- [`O(n^2)`](big-o/student_O_N^2.py)
+- [`O(n^2)`](big-o/student_O_n^2.py)
 - [`simplifying_big_o_part2`](big-o/loop_inside_loop.py)
-- [`O(n!)`](big-o/student_O_N!.py)
+- O(n!)
+    - n factorial which is rare, impossible to write code for this in general.
+    - because, adding a nested loop for every input element
+    - scaled as horrible in the graph: worst complexity which is horrible
 
 ![Alt text](<../assets/bigO_simplify.png>)
+
+
+## Space complexity
