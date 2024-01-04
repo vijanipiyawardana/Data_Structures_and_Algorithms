@@ -1,8 +1,8 @@
 # Complexity Analysis
 
 ### Big-O Notation
-<p align="center">
-![Alt text](<../assets/big_o_intro.png>)</p>
+
+![Alt text](<../assets/big_o_intro.png>)
 
 - We use Big-O because, we cannot depend on the clock time of the system. <br>
 Ex: Write a program to calculate sum of n natural numbers. For example we will take n as 100.
