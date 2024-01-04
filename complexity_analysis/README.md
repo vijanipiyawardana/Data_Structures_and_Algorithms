@@ -81,4 +81,10 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
 ![Alt text](<../assets/logarithm/n_graph_1024.png) 
 ![Alt text](<../assets/logarithm/logn_graph_1024.png) <br>
 - Where we can expect log in complexity?
+    - We see usage of **log** during **searching** and **sorting** algorithms.
+    - ex: apply an algorithm for an array, and in each step eliminate a half of the array
+    ![Alt text](<../assets/logarithm/ex_eliminate_half.png) <br>
+    - require 3 steps to eliminate unrequired elements.
+    ![Alt text](<../assets/logarithm/ex_divide_array_into_half.png) <br>
+    ![Alt text](<../assets/logarithm/ex_divide_array_into_half2.png) <br>
 
