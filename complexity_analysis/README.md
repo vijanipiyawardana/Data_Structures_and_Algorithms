@@ -32,7 +32,7 @@ Ex: Write a program to calculate sum of n natural numbers. For example we will t
 - [`count_operations`](big-o/count_operations.py) 
 - [`simplifying_big_o_part1`](big-o/print_num_char)
 - [`O(n^2)`](big-o/student_O_N^2.py)
-- [`simplifying_big_o_part2`](big-o/simplifying_big_o_part2.py)
+- [`simplifying_big_o_part2`](big-o/loop_inside_loop.py)
 - [`O(n!)`](big-o/student_O_N!.py)
 
 ![Alt text](<../assets/bigO_simplify.png>)

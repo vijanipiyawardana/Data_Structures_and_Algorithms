@@ -11,7 +11,7 @@ def randomFunction(num_list, char_list):
     for char in char_list:
         print(char)     # O(m)
 
-randomFunction(num_list, char_list)      # O(n + m) but, 
+randomFunction(num_list, char_list)      # O(n + m) --> O(n)
 
 ################################################################################
 
