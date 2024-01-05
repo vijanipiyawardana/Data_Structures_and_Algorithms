@@ -25,9 +25,8 @@
 - memory address of the array is pointing to the beginning of the array.
     - Ex: an integer array with 5 elements stored like, If integer size is 32 bit, 4 bytes <br>
 
-        .----------------------------------------------------------------.<br>
-        | memory address = array's address + index * data size (4 bytes) |<br>
-        '----------------------------------------------------------------'<br>
+        memory address = array's address + index * data size (4 bytes) 
+  
     
      ![Alt text](<../assets/array_in_memory.png>) <br>
 
