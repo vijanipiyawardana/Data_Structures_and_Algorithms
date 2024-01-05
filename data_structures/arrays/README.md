@@ -26,7 +26,7 @@
 - **dynamic arrays**: memory allocation depends on smallest power of 2, that is just greater or equal to the length of our array. Ex: If we have 3 elements in the array, we reserve space for 4 elements. 
 - In dynamic arrays, our system allocates extra number of memory slot than we require, you can freely append the array for a certain limited size, and once we exhaust the freely available space, then only our system is going to copy, but again provide extra space, according to the current number of values in the array.
 - So, Complexity for insert in dynamic array, is O(1) or O(N) depending on the situation. O(N) is only for edge cases.
- ![Alt text](<../assets/dynamic_array_memory_allocation.png>) <br>
+ ![Alt text](<../../assets/dynamic_array_memory_allocation.png>) <br>
 
 ### Example code
 
@@ -44,7 +44,7 @@
 
         memory address = array's address + index * data size (4 bytes) 
   
-     ![Alt text](<../assets/array_in_memory.png>) <br>
+     ![Alt text](<../../assets/array_in_memory.png>) <br>
 
 ### Interview questions
 
