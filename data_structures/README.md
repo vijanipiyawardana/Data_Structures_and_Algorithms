@@ -1,5 +1,9 @@
 # Data Structures
 
+- A **data structure** is a particular way of **organizing** data in a computer so that it can be used **effectively**. (enables efficient **access** and **modification**)
+
+ ![Alt text](<../assets/data_structures_category.png>) <br>
+
 ## Arrays
 
 | Operation                            | Running Time Complexity |
@@ -13,6 +17,17 @@
 
 [`Array.java`](java/arrays/Array.java)
 [`ArrayListDemo.java`](java/arrays/ArrayListDemo.java)
+
+- In C, C++ or Java: Static - fixed number of memory slots. Have to give array size when creating.
+- In Python, Javascript: Dynamic - flexible number of memory slots. By default dynamic array.
+- 4 common operations in Arrays: **Access**, **Search**, **Insert**, **Delete**.
+- Complexities to remember: **Average case scenario** and **Worst case scenario**.
+- memory address of the array is pointing to the beginning of the array.
+    - Ex: an integer array with 5 elements stored like, If integer size is 32 bit, 4 bytes
+        | memory address = array's address + index * data size (4 bytes) |
+    
+     ![Alt text](<../assets/array_in_memory.png>) <br>
+
 - Reverse Array Problem: [`Exercise1.java`](java/arrays/Exercise1.java) [`Example1.java`](java/arrays/Example1.java)
     - keep running the algorithm while lowIndex < highIndex
     - in every iteration, have to swap the items ith the index lowIndex and highIndex

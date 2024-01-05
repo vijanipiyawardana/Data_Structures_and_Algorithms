@@ -24,9 +24,10 @@
 ## Data Structures [`data_structures`](data_structures)
 
 - Why data structures?
-    - to handle large amounts of data efficiently
-    - modern applications and software are manipulating large amounts of data (ex: facebook)
+    - to handle large amounts of data efficiently (ex: insert, delete, update, retrieve, search, sort)
+    - modern applications and software are manipulating large amounts of data (ex: facebook, google, apple)
     - can tune the running time complexity of given algorithms by using the appropriate data structure.
+    - ex: while **retrieving** value, **array** is better than **linked list**, while **deleting** value, **linked list** is better than **array**
 
 - Arrays [`arrays`](data_structures/java/arrays/)
 - Linked Lists [`linked_list`](data_structures/java/LinkedList/)
