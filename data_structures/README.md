@@ -34,6 +34,7 @@
 - So, Complexity for insert in dynamic array, is O(1) or O(N) depending on the situation. O(N) is only for edge cases.
  ![Alt text](<../assets/dynamic_array_memory_allocation.png>) <br>
 
+### Example code
 
 [`Array.java`](java/arrays/Array.java)
 [`ArrayListDemo.java`](java/arrays/ArrayListDemo.java)
@@ -51,6 +52,8 @@
   
      ![Alt text](<../assets/array_in_memory.png>) <br>
 
+### Interview questions
+
 - Reverse Array Problem: [`Exercise1.java`](java/arrays/Exercise1.java) [`Example1.java`](java/arrays/Example1.java)
     - keep running the algorithm while lowIndex < highIndex
     - in every iteration, have to swap the items ith the index lowIndex and highIndex
@@ -67,3 +70,6 @@
     - increment forward index and decement backward index
     - after iteration, return true
 - Integer Reversion Exercise: [`Exercise4.java`](java/arrays/Exercise1.java) [`Example4.java`](java/arrays/Example1.java)
+
+
+## Linked Lists
