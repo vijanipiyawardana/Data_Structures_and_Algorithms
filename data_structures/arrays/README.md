@@ -28,6 +28,8 @@
 - So, Complexity for insert in dynamic array, is O(1) or O(N) depending on the situation. O(N) is only for edge cases.
  ![Alt text](<../../assets/dynamic_array_memory_allocation.png>) <br>
 
+- huge disadvantage with arrays: there may be **holes** in the data structure, and we have to shift a lot of items. (this can be eliminated in LinkedLists)
+
 ### Example code
 
 [`Array.java`](Array.java)
