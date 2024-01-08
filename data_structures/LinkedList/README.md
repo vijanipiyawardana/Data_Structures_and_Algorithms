@@ -8,6 +8,7 @@
 - **no random indexing** as the items are not stored next to each other in the memory.
 - Complexity with Linked List:
     - to find an arbitrary item in linked list, still has **O(n)** running time complexity.
+    
 | Access    | Search    | Insert    | Delete    |
 |-----------|-----------|-----------|-----------|
 |   O(n)    |   O(n)    |   O(n)    |   O(n)    |
