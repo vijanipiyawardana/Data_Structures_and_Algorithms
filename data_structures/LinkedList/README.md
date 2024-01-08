@@ -15,12 +15,10 @@
     - to find an arbitrary item in linked list, still has **O(n)** running time complexity.
     - manipulating an arbitrary item: **O(n)** linear running time complexity
 
-| Access    | Search    | Insert    | Delete    |
-|-----------|-----------|-----------|-----------|
-|   O(n)    |   O(n)    |   O(n)    |   O(n)    |
-|   O(1)   *|   O(1)   *|   O(1)   *|   O(1)   *| 
-
-    * manipulating the first item (insertion or removal) it is constant running time complexity
+|                                | Access    | Search    | Insert    | Delete    |
+|--------------------------------|-----------|-----------|-----------|-----------|
+| manipulating an arbitrary item |   O(n)    |   O(n)    |   O(n)    |   O(n)    |
+| manipulating the first item    |   O(1)   *|   O(1)   *|   O(1)   *|   O(1)   *| 
 
 - Pros and Cons of Singly Linked Lists
 
