@@ -24,6 +24,18 @@
 
 ![Alt text](<../../assets/pros-and-cons-singly-linked-list.png>) <br>
 
+### Singly Linked lists in Java !!!
+
+- In a singly linked list we store a reference to the first node (head node) exclusively. Which means that if we want to insert items to the end of the linked list then we have to iterate through the list first - this is why it takes O(N) running time.
+- **BUT IN JAVA'S LINKED LIST, THERE IS A REFERENCE TO THE LAST NODE OF THE LINKED LIST AS WELL !!!**
+- It means of course that inserting items to the end of the linked list (and removing items from the end of a linked list) takes O(1) constant running time complexity.
+
+[`simple-integer-linkedlist`](../LinkedList/java/simple_integer_linkedlist/)
+[`generic-linkedlist`]()
+
+### Singly Linked lists in Python !!!
+
+[`singly_linked_list.py`](../LinkedList/python/linkedlist/singly_linked_list.py)
 
 ### Doubly Linked List
 

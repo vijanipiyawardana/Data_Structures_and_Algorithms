@@ -1,5 +1,3 @@
-package linkedlist;
-
 public class Controller {
     public void controlLinkedList(){
         LinkedList list = new LinkedList();
