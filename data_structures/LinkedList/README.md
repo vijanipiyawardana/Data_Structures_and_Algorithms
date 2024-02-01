@@ -31,7 +31,8 @@
 - It means of course that inserting items to the end of the linked list (and removing items from the end of a linked list) takes O(1) constant running time complexity.
 
 [`simple-integer-linkedlist`](../LinkedList/java/simple_integer_linkedlist/)
-[`generic-linkedlist`]()
+[`generic-linkedlist`](../LinkedList/java/generic_linkedlist/)
+
 
 ### Singly Linked lists in Python !!!
 
