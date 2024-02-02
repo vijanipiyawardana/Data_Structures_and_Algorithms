@@ -33,19 +33,6 @@
 [`simple-integer-linkedlist`](../LinkedList/java/simple_integer_linkedlist/)
 [`generic-linkedlist`](../LinkedList/java/generic_linkedlist/)
 
-#### Arrays Vs LinkedLists
-
-|            Arrays            |          LinkedLists           |
-|------------------------------|--------------------------------|
-| Static Data Structure        | Dynamic Data Structure         |
-| Random access (indexes)      | No Random access               |
-| Manipulate first item O(n) - have to shift several items | Manipulate first item - update the references      |
-| Manipulate last item -  there cannot be holes            | Manipulate last item - traverse whole list O(n) |
-| Memory management - do not need extra memory             | Memory management - need extra memory(references)    |
-
-- searching (removing) an arbitrary item (when we do not know the index of the item: arrays) takes O(n) linear running time complexity - **main disadvantage** of arrays and linked lists.
-
-
 ### Singly Linked lists in Python !!!
 
 [`singly_linked_list.py`](../LinkedList/python/linkedlist/singly_linked_list.py)
@@ -61,10 +48,28 @@
 - https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
 - **Doubly-linked list implementation** of the List and Deque interfaces. Implements all optional list operations, and permits all elements (including null). Allows addFirst(E e), addLast(E e) which has O(1).
 
+[`built-in LinkedList data-structure`](../LinkedList/java/built-in_linked-list_data-structure/)
+
 ### Circular Linked List
 
 
-### Linked lists real world applications:
+## Arrays Vs LinkedLists
+
+|            Arrays            |          LinkedLists           |
+|------------------------------|--------------------------------|
+| Static Data Structure        | Dynamic Data Structure         |
+| Random access (indexes)      | No Random access               |
+| Manipulate first item O(n) - have to shift several items | Manipulate first item - update the references      |
+| Manipulate last item -  there cannot be holes            | Manipulate last item - traverse whole list O(n) |
+| Memory management - do not need extra memory             | Memory management - need extra memory(references)    |
+
+- searching (removing) an arbitrary item (when we do not know the index of the item: arrays) takes O(n) linear running time complexity - **main disadvantage** of arrays and linked lists.
+
+## Java's ArrayList vs LinkedList running time comparison
+
+[`Comparison_ArrayList_LinkedList`](../App.java)
+
+## Linked lists real world applications:
 
  - low level memory management (heap management)
  - applications of Windows OS: several tabs (applications) opened, alt+tab
