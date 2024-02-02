@@ -40,11 +40,8 @@
 | Static Data Structure        | Dynamic Data Structure         |
 | Random access (indexes)      | No Random access               |
 | Manipulate first item O(n) - have to shift several items | Manipulate first item - update the references      |
-|  |          |
-| Manipulate last item -       | Manipulate last item -         |
-|  there cannot be holes       |  traverse whole list O(n)      |
-| Memory management -          | Memory management -            |
-|  do not need extra memory    |  need extra memory(references) | 
+| Manipulate last item -  there cannot be holes            | Manipulate last item - traverse whole list O(n) |
+| Memory management - do not need extra memory             | Memory management - need extra memory(references)    |
 
 - searching (removing) an arbitrary item (when we do not know the index of the item: arrays) takes O(n) linear running time complexity - **main disadvantage** of arrays and linked lists.
 
