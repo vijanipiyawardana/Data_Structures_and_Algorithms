@@ -1,4 +1,8 @@
-import java.sql.Time;
+/*
+ * Java's ArrayList vs LinkedList running time comparison
+ * 
+*/
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 
