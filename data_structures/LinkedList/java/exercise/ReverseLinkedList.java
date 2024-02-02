@@ -12,13 +12,7 @@ class LinkedList implements List {
 	
 	@Override
 	public Node reverse() {
-		Node actualNode = root;
-        Node newNode = null;
-        while (actualNode.getNextNode() != null) {
-            newNode = actualNode;
-            actualNode = actualNode.getNextNode();
-            return newNode;
-        }
+        // complete this code
         return null;
 	}
 	

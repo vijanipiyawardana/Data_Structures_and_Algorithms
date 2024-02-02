@@ -1,3 +1,12 @@
+/*
+ * Finding the middle node in a linked list exercise
+ * Suppose we have a standard linked list. 
+ * Construct an in-place (without extra memory) algorithm that is able to find the middle node!
+ * Note: you should construct an O(N) linear running time algorithm.
+ * For example: [1, 2, 3, 4] --> middle node is: 3,   [1, 2, 3, 4, 5] --> middle node is: 3
+ * WE ASSUME THAT WE STORE INTEGERS IN THE LINKED LIST - NO NEED TO USE GENERIC IMPLEMENTATION !!!
+*/
+
 class LinkedList<T extends Comparable<T>> implements List<T> {
 
     private Node<T> root;  

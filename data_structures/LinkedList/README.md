@@ -94,7 +94,7 @@
         - problem: it has O(n) memory complexity, so it is not **in-place**
     2. using pointers
         - we can achieve an **in-place** algorithm that has **O(n)** linear running time complexity as well
-        - need 3 pointers: for current, previous, next nodes
+        - need 3 pointers: for **current**, **previous**, **next** nodes
         ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist1.png)<br>
         ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist2.png)<br>
         ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist3.png)<br>
