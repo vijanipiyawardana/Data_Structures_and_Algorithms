@@ -88,5 +88,24 @@
             - Pointer 2: traverse the linked list two nodes at a time
         - when the faster pointer reaches the end of the list, then the slower pointer is pointing to the middle node
 
-- Reverse a linked list in-place: [`Exercise`](../LinkedList/java/exercise/ReverseLinkedList.java) [`Example`](../LinkedList//java/example/ReverseLinkedList.java)
+- Reverse a linked list: construct an **in-place** algorithm: [`Exercise`](../LinkedList/java/exercise/ReverseLinkedList.java) [`Example`](../LinkedList//java/example/ReverseLinkedList.java)
+    1. naive solution
+        - consider all the nodes one by one, then construct another linked list in reverse order.
+        - problem: it has O(n) memory complexity, so it is not **in-place**
+    2. using pointers
+        - we can achieve an **in-place** algorithm that has **O(n)** linear running time complexity as well
+        - need 3 pointers: for current, previous, next nodes
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist1.png)<br>
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist2.png)<br>
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist3.png)<br>
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist4.png)<br>
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist5.png)<br>
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist6.png)<br>
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist7.png)<br>
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist8.png)<br>
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist9.png)<br>
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist10.png)<br>
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist11.png)<br>
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist12.png)<br>
+        ![Alt text](../../assets/reverse-linkedlist/reverse-linkedlist13.png)<br>
     
