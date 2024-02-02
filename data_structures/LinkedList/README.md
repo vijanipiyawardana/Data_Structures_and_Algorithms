@@ -39,8 +39,8 @@
 |------------------------------|--------------------------------|
 | Static Data Structure        | Dynamic Data Structure         |
 | Random access (indexes)      | No Random access               |
-| Manipulate first item - O(n) | Manipulate first item -        |
-|  have to shift several items |  update the references         |
+| Manipulate first item O(n) - have to shift several items | Manipulate first item - update the references      |
+|  |          |
 | Manipulate last item -       | Manipulate last item -         |
 |  there cannot be holes       |  traverse whole list O(n)      |
 | Memory management -          | Memory management -            |
