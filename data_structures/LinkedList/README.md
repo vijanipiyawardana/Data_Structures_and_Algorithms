@@ -56,6 +56,11 @@
 
 ![Alt text](<../../assets/doubly-linked-list.png>) <br>
 
+### Java's built-in LinkedList data structure
+
+- https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+- **Doubly-linked list implementation** of the List and Deque interfaces. Implements all optional list operations, and permits all elements (including null). Allows addFirst(E e), addLast(E e) which has O(1).
+
 ### Circular Linked List
 
 
