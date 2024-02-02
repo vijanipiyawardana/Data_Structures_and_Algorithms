@@ -48,7 +48,7 @@
   
      ![Alt text](<../../assets/array_in_memory.png>) <br>
 
-### Interview questions
+## Interview questions
 
 - Reverse Array Problem: [`Exercise1.java`](exercise/Exercise1.java) [`Example1.java`](example/Example1.java)
     - keep running the algorithm while lowIndex < highIndex

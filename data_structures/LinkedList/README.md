@@ -75,3 +75,18 @@
  - applications of Windows OS: several tabs (applications) opened, alt+tab
  - photo viewer application - next photo, prev photo
  - blockchains (BitCoin) - blocks are cryptographically linked together by hash values
+
+ ## Interview questions
+
+ - Find Middle Node without the need of extra memory: [`Exercise`](../LinkedList/java/exercise/FindMiddleNode.java) [`Example`](../LinkedList/java/example/FindMiddleNode.java)
+    1. naive solution (traverses twice through the linked list - slow)
+        - iterate through the list and count how many elements there are in total
+        - traverse the list again and the node with index **count/2** is the middle node
+    2. Using 2 pointers (traverses once through the linked list - fast)
+        - use 2 pointers to get the middle node in O(n)
+            - Pointer 1: traverse the linked list one node at a time
+            - Pointer 2: traverse the linked list two nodes at a time
+        - when the faster pointer reaches the end of the list, then the slower pointer is pointing to the middle node
+
+- Reverse a linked list in-place: [`Exercise`](../LinkedList/java/exercise/ReverseLinkedList.java) [`Example`](../LinkedList//java/example/ReverseLinkedList.java)
+    
