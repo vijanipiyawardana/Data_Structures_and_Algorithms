@@ -33,6 +33,21 @@
 [`simple-integer-linkedlist`](../LinkedList/java/simple_integer_linkedlist/)
 [`generic-linkedlist`](../LinkedList/java/generic_linkedlist/)
 
+#### Arrays Vs LinkedLists
+
+|            Arrays            |          LinkedLists           |
+|------------------------------|--------------------------------|
+| Static Data Structure        | Dynamic Data Structure         |
+| Random access (indexes)      | No Random access               |
+| Manipulate first item - O(n) | Manipulate first item -        |
+|  have to shift several items |  update the references         |
+| Manipulate last item -       | Manipulate last item -         |
+|  there cannot be holes       |  traverse whole list O(n)      |
+| Memory management -          | Memory management -            |
+|  do not need extra memory    |  need extra memory(references) | 
+
+- searching (removing) an arbitrary item (when we do not know the index of the item: arrays) takes O(n) linear running time complexity - **main disadvantage** of arrays and linked lists.
+
 
 ### Singly Linked lists in Python !!!
 
@@ -40,6 +55,16 @@
 
 ### Doubly Linked List
 
+[`doubly-linked-list`](../LinkedList/java/doubly_linked_list/)
+
 ![Alt text](<../../assets/doubly-linked-list.png>) <br>
 
 ### Circular Linked List
+
+
+### Linked lists real world applications:
+
+ - low level memory management (heap management)
+ - applications of Windows OS: several tabs (applications) opened, alt+tab
+ - photo viewer application - next photo, prev photo
+ - blockchains (BitCoin) - blocks are cryptographically linked together by hash values
