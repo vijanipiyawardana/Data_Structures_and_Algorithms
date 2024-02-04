@@ -1,7 +1,10 @@
-/* This is the code I submitted, 
-because FindMiddleNode.java code gave the test case fail, 
-even though its output is correct. I couldn't get the reason why.
+/*
+ * Reverse a linked list in-place exercise
+Construct an in-place algorithm (without the need for extra memory) to reverse a linked list!
+
+For example: 1 -> 2 -> 3 -> 4 should be transformed into 4 -> 3 -> 2 -> 1
 */
+package LinkedList.java.exercise.reverse;
 class LinkedList implements List {
 
 	// this is the head node or root node
@@ -9,18 +12,26 @@ class LinkedList implements List {
 	private int numOfItems;
 	
 	@Override
-	public Node getMiddleNode() {
-		
-		// this is where you implement the algorithm !!!
-		traverse();
-		System.out.println("size: " + size());
-		int mid = size() / 2;
-        Node midNode = root;
-        for (int i = 0; i < mid; i++) {
-            System.out.println("inside loop: " + i);
-            midNode = midNode.getNextNode();
-        }
-        return midNode;
+	public Node reverse() {
+        // complete this code
+        return null;
+	}
+	
+	@Override
+	public Node get(int index) {
+	    
+	    int counter = 0;
+	    Node node = this.root;
+	    
+	    while(node != null) {
+	        if(index == counter)
+	            return node;
+	        
+	        counter++;
+	        node = node.getNextNode();
+	    }
+	    
+	    return null;
 	}
 	
 	@Override
@@ -31,10 +42,9 @@ class LinkedList implements List {
 			root = new Node(data);
 		} else {
 			// we know that this is not the first item in the linked list
-// 			insertBeginning(data);
-            insertEnd(data, root);
+			insertBeginning(data);
 		}	
-		numOfItems++;
+        numOfItems++;
 	}
 
 	// we just have to update the references O(1)
@@ -78,7 +88,8 @@ class LinkedList implements List {
 }
 
 interface List {
-    public Node getMiddleNode();
+    public Node get(int index);
+    public Node reverse();
     public void insert(int data);
     public void traverse();
     public int size();
@@ -114,31 +125,26 @@ class Node {
         return "" + this.data;
     }
 }
+public class ReverseLinkedList {
 
-public class FindMiddle {
     public static void main(String[] args) {
         
-        LinkedList numbers1 = new LinkedList();
+        LinkedList numbers = new LinkedList();
 
-        numbers1.insert(4);
-        numbers1.insert(3);
-        numbers1.insert(2);
-        numbers1.insert(1);
+        numbers.insert(5);
+        numbers.insert(4);
+        numbers.insert(3);
+        numbers.insert(2);
 
-        numbers1.traverse();
-        System.out.println("number of items: " + numbers1.size());
-        System.out.println("mid node is: " + numbers1.getMiddleNode());
+        numbers.traverse();
 
-        LinkedList numbers2 = new LinkedList();
+        LinkedList reversed = new LinkedList();
+        Node node = numbers.reverse();
+        while(node != null) {
+            reversed.insert(node.getData());
+        }
 
-        numbers2.insert(5);
-        numbers2.insert(4);
-        numbers2.insert(3);
-        numbers2.insert(2);
-        numbers2.insert(1);
-
-        numbers2.traverse();
-        System.out.println("number of items: " + numbers2.size());
-        System.out.println("mid node is: " + numbers1.getMiddleNode());
+        reversed.traverse();
     }
+    
 }

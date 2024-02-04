@@ -1,3 +1,4 @@
+package LinkedList.java.doubly_linked_list;
 public class Node<T extends Comparable<T>> {
 
     private T data;

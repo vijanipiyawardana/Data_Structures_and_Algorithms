@@ -6,6 +6,7 @@
  * For example: [1, 2, 3, 4] --> middle node is: 3,   [1, 2, 3, 4, 5] --> middle node is: 3
  * WE ASSUME THAT WE STORE INTEGERS IN THE LINKED LIST - NO NEED TO USE GENERIC IMPLEMENTATION !!!
 */
+package LinkedList.java.example.find_middle;
 
 class LinkedList<T extends Comparable<T>> implements List<T> {
 

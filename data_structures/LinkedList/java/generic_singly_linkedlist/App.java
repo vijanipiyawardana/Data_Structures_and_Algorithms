@@ -1,3 +1,5 @@
+package LinkedList.java.generic_singly_linkedlist;
+
 public class App {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package LinkedList.java.generic_singly_linkedlist;
+
 import java.util.Comparator;
 
 // make sure Person implements Comparable interface in order to use it as a Node
@@ -36,8 +38,9 @@ public class Person implements Comparable<Person> {
     // to compare two objects
     @Override
     public int compareTo(Person person) {
-        return Comparator.comparing(Person::getName)
-                .thenComparingInt(Person::getAge).compare(this, person);
+        return 0;
+//        return Comparator.comparing(Person::getName)
+//                .thenComparingInt(Person::getAge).compare(this, person);
     }
 
 }

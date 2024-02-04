@@ -1,3 +1,5 @@
+package LinkedList.java.simple_integer_linkedlist;
+
 public class Node {
     Node next;
     int data;

@@ -1,4 +1,6 @@
 // Linked list data structure needs to be generic: to store any object
+package LinkedList.java.generic_singly_linkedlist;
+
 public class Node<T extends Comparable<T>> {
 
     private T data;           // data store in the data structure, any data type/object

@@ -1,3 +1,5 @@
+package LinkedList.java.simple_integer_linkedlist;
+
 public class Controller {
     public void controlLinkedList(){
         LinkedList list = new LinkedList();

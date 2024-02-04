@@ -1,3 +1,5 @@
+package LinkedList.java.generic_singly_linkedlist;
+
 public interface List<T> {
 
     public void insert(T data);

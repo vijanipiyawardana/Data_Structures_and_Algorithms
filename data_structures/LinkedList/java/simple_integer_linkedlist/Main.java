@@ -1,3 +1,5 @@
+package LinkedList.java.simple_integer_linkedlist;
+
 import java.util.Random;
 
 public class Main {
