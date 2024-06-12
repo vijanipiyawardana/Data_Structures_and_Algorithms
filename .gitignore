@@ -37,3 +37,8 @@ hs_err_pid*
 .DS_Store
 **/.DS_Store
 **/**/.DS_Store
+
+# Jupyter notebook
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+**/**/.ipynb_checkpoints/
