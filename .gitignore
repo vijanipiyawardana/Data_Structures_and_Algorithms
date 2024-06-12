@@ -32,3 +32,8 @@ hs_err_pid*
 *.iws
 *.iml
 *.ipr
+
+# OS
+.DS_Store
+**/.DS_Store
+**/**/.DS_Store
